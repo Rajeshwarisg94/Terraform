@@ -9,6 +9,6 @@ resource "aws_instance" "myFirstInstance" {
   key_name = "Rekha"
   instance_type = "t2.micro"
   tags= {
-    Name = "terraform_ec2"
+    Name = "terraform_ec2.1"
   }
 }
