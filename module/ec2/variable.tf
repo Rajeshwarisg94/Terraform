@@ -20,3 +20,8 @@ variable "ec2_pem" {
   description = "name of the pem key"
   type        = string
 }
+
+variable "security_group_id" {
+  description = "enter the security_group"
+  type = string
+}
