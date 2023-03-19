@@ -11,7 +11,7 @@ module "pem_key" {
 
 module "ec2" {
     source = "./module/ec2"
-    ami_id = var.root_ec2_ami
+    ami_id = var.root_ami_id
     instance_type = var.root_ec2_type
     ec2_pem = module.pem_key.ec2_pem
     security_group_id = module.security_group.security_group_id
