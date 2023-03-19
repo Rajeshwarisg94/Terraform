@@ -3,7 +3,7 @@ variable "ami_id" {
     type = string
 }
 
-variable "instance_type" {
+variable "ec2_type" {
     description = "type of the instance"
     type = string
 }
@@ -11,6 +11,7 @@ variable "instance_type" {
 variable "instance_name" {
   description = "name of the instance"
   type        = string
+  default = "terraform_ec2"
 }
 
 variable "ec2_pem" {
@@ -18,7 +19,7 @@ variable "ec2_pem" {
   type        = string
 }
 
-variable "security_group_id" {
+variable "ec2_security_group_id" {
   description = "enter the security_group"
   type = string
 }
