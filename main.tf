@@ -1,4 +1,5 @@
-<<<<<<< HEAD
+
+
 module "security_group" {
     source = "./module/security_group"
     security_group_name = var.root_security_group_name
@@ -36,4 +37,4 @@ module "ec2" {
     ec2_pem = module.pem_key.ec2_pem
     security_group_id = module.security_group.security_group_id
 }
->>>>>>> d8f0cbe3a1c6b794b2ff0edb695aaa568d91402f
+
