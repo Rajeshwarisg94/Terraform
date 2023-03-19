@@ -14,6 +14,6 @@ module "ec2" {
     ami_id = var.root_ami_id
     ec2_type = var.root_ec2_type
     ec2_pem = module.pem_key.ec2_pem
-    ec2_security_group_id = module_ec2.security_group.security_group_id
+    ec2_security_group_id = module.security_group.security_group_id
 }
 
