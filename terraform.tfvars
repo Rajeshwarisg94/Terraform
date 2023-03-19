@@ -1,4 +1,4 @@
-root_ec2_ami = "ami-067871d950411e643"
+root_ami_id = "ami-05afd67c4a44cc983"
 
 root_ec2_type = "t2.micro"
 

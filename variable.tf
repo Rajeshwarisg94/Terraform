@@ -1,4 +1,4 @@
-variable "root_ec2_ami" {
+variable "root_ami_id" {
     type = string 
 }
 
